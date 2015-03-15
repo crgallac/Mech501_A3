@@ -1,0 +1,1171 @@
+TRUTH: Begin Initial Points
+{Reference to non-existent field 'p'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 362)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',362,0)">line 362</a>)
+   [Problem.iterate0(1:n0).p] = deal(iterate0.p);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] = processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+ite.x=[0 0 0 0]
+
+ite = 
+
+    x: [0 0 0 0]
+
+length(ite)
+
+ans =
+
+     1
+
+ite(1)
+
+ans = 
+
+    x: [0 0 0 0]
+
+isstruct(ite(1))
+
+ans =
+
+     1
+
+deal(ite.x)
+a=deal(ite.x)
+
+a =
+
+     0     0     0     0
+
+ite.p=[]
+
+ite = 
+
+    x: [0 0 0 0]
+    p: []
+
+b=deal(ite.p)
+
+b =
+
+     []
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>checkErrors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 673)" style="font-weight:bold">mads>checkErrors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',673,0)">line 673</a>)
+MVP initial iterate is missing categorical variables (checkErrors).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>checkErrors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 673)" style="font-weight:bold">mads>checkErrors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',673,0)">line 673</a>)
+   error('mads:input',[errorMsg{ind(1)},' (checkErrors).']);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 374)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',374,0)">line 374</a>)
+checkErrors(Problem,Options,Defaults.Types);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] = processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+nomadm
+Only one NOMADm window may run at a time
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3411)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3411,0)">line 3411</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3411)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3411,0)">line 3411</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] = processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3411)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3411,0)">line 3411</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3411)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3411,0)">line 3411</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] = processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+inf
+
+ans =
+
+   Inf
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3411)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3411,0)">line 3411</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3411)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3411,0)">line 3411</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+ans =
+
+     1     3
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3413)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3413,0)">line 3413</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3413)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3413,0)">line 3413</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+ans =
+
+     1     3
+
+
+ans =
+
+     3     1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3414)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3414,0)">line 3414</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3414)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3414,0)">line 3414</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+ans =
+
+     3     1
+
+
+ans =
+
+     3     1
+
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3418)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3418,0)">line 3418</a>)
+a = l(1:n);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+ans =
+
+     3     1
+
+
+ans =
+
+     3     1
+
+
+n =
+
+     4
+
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3419)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3419,0)">line 3419</a>)
+a = l(1:n);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+ans =
+
+     3     1
+
+
+ans =
+
+     3     1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>getScaleFactors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3513)" style="font-weight:bold">mads>getScaleFactors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3513,0)">line 3513</a>)
+   bad     = (all(zeroInf,2) &  typx);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3457)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3457,0)">line 3457</a>)
+   newScale =
+   getScaleFactors(Options.scale,iterate,a,b,Problem.nameCache);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+helpUtils.errorDocCallback('and')
+
+ans =
+
+     3     1
+
+
+ans =
+
+     3     1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>getScaleFactors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3513)" style="font-weight:bold">mads>getScaleFactors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3513,0)">line 3513</a>)
+   bad     = (all(zeroInf,2) &  typx);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3457)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3457,0)">line 3457</a>)
+   newScale =
+   getScaleFactors(Options.scale,iterate,a,b,Problem.nameCache);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+ans =
+
+     3     1
+
+
+ans =
+
+     3     1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>getScaleFactors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3513)" style="font-weight:bold">mads>getScaleFactors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3513,0)">line 3513</a>)
+   bad     = (all(zeroInf,2) &  typx);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3457)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3457,0)">line 3457</a>)
+   newScale =
+   getScaleFactors(Options.scale,iterate,a,b,Problem.nameCache);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+l=ones(5,1)
+
+l =
+
+     1
+     1
+     1
+     1
+     1
+
+l(l==1)
+
+ans =
+
+     1
+     1
+     1
+     1
+     1
+
+l(l==1)=-inf
+
+l =
+
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3414)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3414,0)">line 3414</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3414)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3414,0)">line 3414</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+
+m =
+
+     3
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3414)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3414,0)">line 3414</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3414)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3414,0)">line 3414</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+l =
+
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+
+
+u =
+
+   5.000000000000000
+   4.000000000000000
+  -1.500000000000000
+                   0
+                   0
+                   0
+                   0
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+
+
+A =
+
+     1     2     1     1
+     3     1     2    -1
+     0    -1    -4     0
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+
+m =
+
+     3
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3417)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3417,0)">line 3417</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3417)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3417,0)">line 3417</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+l =
+
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+
+
+u =
+
+   5.000000000000000
+   4.000000000000000
+  -1.500000000000000
+                   0
+                   0
+                   0
+                   0
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+
+
+A =
+
+     1     2     1     1
+     3     1     2    -1
+     0    -1    -4     0
+    -1     0     0     0
+     0    -1     0     0
+     0     0    -1     0
+     0     0     0    -1
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+
+m =
+
+    11
+
+
+n =
+
+     4
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>getScaleFactors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3516)" style="font-weight:bold">mads>getScaleFactors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3516,0)">line 3516</a>)
+   bad     = (all(zeroInf,2) &  typx);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3460)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3460,0)">line 3460</a>)
+   newScale =
+   getScaleFactors(Options.scale,iterate,a,b,Problem.nameCache);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+l =
+
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+
+
+u =
+
+   5.000000000000000
+   4.000000000000000
+  -1.500000000000000
+                   0
+                   0
+                   0
+                   0
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+
+
+A =
+
+     1     2     1     1
+     3     1     2    -1
+     0    -1    -4     0
+    -1     0     0     0
+     0    -1     0     0
+     0     0    -1     0
+     0     0     0    -1
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+
+m =
+
+    11
+
+
+n =
+
+     4
+
+
+zeroInf =
+
+     1     0
+     1     0
+     1     0
+     1     1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>getScaleFactors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3516)" style="font-weight:bold">mads>getScaleFactors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3516,0)">line 3516</a>)
+   bad     = (all(zeroInf,2) &  typx);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3460)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3460,0)">line 3460</a>)
+   newScale =
+   getScaleFactors(Options.scale,iterate,a,b,Problem.nameCache);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+zeroInf =
+ zeroInf =
+          |
+{Error: Expression or statement is incomplete or incorrect.
+} 
+zeroInf = [1 0; 1 0; 1 0; 1 1];
+all(zeroInf,2)
+
+ans =
+
+     0
+     0
+     0
+     1
+
+t=[1 0]
+
+t =
+
+     1     0
+
+all(2)
+
+ans =
+
+     1
+
+
+l =
+
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+
+
+u =
+
+   5.000000000000000
+   4.000000000000000
+  -1.500000000000000
+                   0
+                   0
+                   0
+                   0
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+
+
+A =
+
+     1     2     1     1
+     3     1     2    -1
+     0    -1    -4     0
+    -1     0     0     0
+     0    -1     0     0
+     0     0    -1     0
+     0     0     0    -1
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+
+m =
+
+    11
+
+
+n =
+
+     4
+
+
+typx =
+
+     5     5     5     5
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>getScaleFactors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3516)" style="font-weight:bold">mads>getScaleFactors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3516,0)">line 3516</a>)
+   bad     = (all(zeroInf,2) &  typx);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3460)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3460,0)">line 3460</a>)
+   newScale =
+   getScaleFactors(Options.scale,iterate,a,b,Problem.nameCache);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+l =
+
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+
+
+u =
+
+   5.000000000000000
+   4.000000000000000
+  -1.500000000000000
+                   0
+                   0
+                   0
+                   0
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+
+
+A =
+
+     1     2     1     1
+     3     1     2    -1
+     0    -1    -4     0
+    -1     0     0     0
+     0    -1     0     0
+     0     0    -1     0
+     0     0     0    -1
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+
+m =
+
+    11
+
+
+n =
+
+     4
+
+
+typx =
+
+     5     5     5     5
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+Dimensions of matrices being concatenated are not consistent.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>evalPointSet', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3679)" style="font-weight:bold">mads>evalPointSet</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3679,0)">line 3679</a>)
+   msg = ['   evalPointSet: p/x = {',p,'} / [',num2str(P(k).x'),']'];
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 500)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',500,0)">line 500</a>)
+[iterate,success,TempFilter,RunData.RS] = ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+l =
+
+  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf  -Inf
+
+
+u =
+
+  Columns 1 through 3
+
+   5.000000000000000   4.000000000000000  -1.500000000000000
+
+  Columns 4 through 6
+
+                   0                   0                   0
+
+  Columns 7 through 9
+
+                   0  10.000000000000000  10.000000000000000
+
+  Columns 10 through 11
+
+  10.000000000000000  10.000000000000000
+
+
+A =
+
+     1     2     1     1
+     3     1     2    -1
+     0    -1    -4     0
+    -1     0     0     0
+     0    -1     0     0
+     0     0    -1     0
+     0     0     0    -1
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+
+ans =
+
+     1    11
+
+
+ans =
+
+     1    11
+
+
+m =
+
+    11
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3417)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3417,0)">line 3417</a>)
+Invalid constraint dimensions (updateOmega).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3417)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3417,0)">line 3417</a>)
+   error('mads:constraints:dim','Invalid constraint dimensions
+   (updateOmega).');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+
+l =
+
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+  -Inf
+
+
+u =
+
+   5.000000000000000
+   4.000000000000000
+  -1.500000000000000
+                   0
+                   0
+                   0
+                   0
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+  10.000000000000000
+
+
+A =
+
+     1     2     1     1
+     3     1     2    -1
+     0    -1    -4     0
+    -1     0     0     0
+     0    -1     0     0
+     0     0    -1     0
+     0     0     0    -1
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+
+ans =
+
+    11     1
+
+
+ans =
+
+    11     1
+
+
+m =
+
+    11
+
+
+n =
+
+     4
+
+
+typx =
+
+     5     5     5     5
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>getScaleFactors', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3516)" style="font-weight:bold">mads>getScaleFactors</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3516,0)">line 3516</a>)
+   bad     = (all(zeroInf,2) &  typx);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>updateOmega', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 3460)" style="font-weight:bold">mads>updateOmega</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',3460,0)">line 3460</a>)
+   newScale =
+   getScaleFactors(Options.scale,iterate,a,b,Problem.nameCache);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads>processInput', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 491)" style="font-weight:bold">mads>processInput</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',491,0)">line 491</a>)
+[Problem.Omega,RunData.scale] = updateOmega(Problem,Options, ...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mads', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m', 174)" style="font-weight:bold">mads</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\mads.m',174,0)">line 174</a>)
+   [Problem,Options,RunData] =
+   processInput(Problem,iterate0,varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('nomadm>runMADS', 'C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m', 1571)" style="font-weight:bold">nomadm>runMADS</a> (<a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Nomad\nomadm.m',1571,0)">line 1571</a>)
+      [BestF,BestI,RunStats,RunSet(1).Cache] =
+      mads(Problem,iterate0,Options);
+} 
+Error while evaluating uimenu Callback
+
+Q2
+[Warning: The default trust-region-reflective algorithm does not solve
+problems with the constraints you have specified. FMINCON will use the
+active-set algorithm instead. For information on applicable algorithms,
+see <a href = "matlab: helpview([docroot '/toolbox/optim/helptargets.map'],'choose_algorithm');">Choosing the Algorithm</a> in the documentation.] 
+[> In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\shared\optimlib\fmincon.m',501,1)">fmincon at 501</a>
+  In <a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Q2.m',12,1)">Q2 at 12</a>] 
+[Warning: Your current settings will <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'fmincon_warnN1','CSHelpWindow');">run a different algorithm</a>
+(interior-point) in a future release.] 
+[> In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\shared\optimlib\fmincon.m',506,1)">fmincon at 506</a>
+  In <a href="matlab: opentoline('C:\Users\CGal\Documents\MATLAB\Mech501\Mech501_A3\Q2.m',12,1)">Q2 at 12</a>] 
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_poss_with_constr','CSHelpWindow');">Local minimum possible. Constraints satisfied</a>.
+
+fmincon stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'pred_change','CSHelpWindow');">predicted change in the objective function</a>
+is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance','CSHelpWindow');">function tolerance</a> and constraints 
+are satisfied to within the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg('nlconst',5.000000e+00,true,true,'fmincon',5.788327e-09,'default',1.000000e-06,0.000000e+00,'default',1.000000e-06,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+Active inequalities (to within options.TolCon = 1e-06):
+  lower      upper     ineqlin   ineqnonlin
+    3                     1           
+
+x =
+
+   0.272745285373343
+   2.090933810070037
+                   0
+   0.545387094486583
+
+Q2_gcl
+
+ Iterations this run: 1      Func. Evals this run: 3      f_min:                 Inf
+ Iterations this run: 2      Func. Evals this run: 5      f_min:                 Inf
+ Iterations this run: 3      Func. Evals this run: 7      f_min:                 Inf
+ Iterations this run: 4      Func. Evals this run: 9      f_min:                 Inf
+ Iterations this run: 5      Func. Evals this run: 11      f_min:                 Inf
+ Iterations this run: 6      Func. Evals this run: 13      f_min:        4.2592592593
+ Iterations this run: 7      Func. Evals this run: 19      f_min:       -0.5555555556
+ Iterations this run: 8      Func. Evals this run: 29      f_min:       -1.2962962963
+ Iterations this run: 9      Func. Evals this run: 37      f_min:       -3.3950617284
+ Iterations this run: 10      Func. Evals this run: 49      f_min:       -3.3950617284
+ Iterations this run: 11      Func. Evals this run: 59      f_min:       -3.3950617284
+ Iterations this run: 12      Func. Evals this run: 71      f_min:       -4.0397805213
+ Iterations this run: 13      Func. Evals this run: 85      f_min:       -4.3004115226
+ Iterations this run: 14      Func. Evals this run: 95      f_min:       -4.3004115226
+ Iterations this run: 15      Func. Evals this run: 109      f_min:       -4.3004115226
+ Iterations this run: 16      Func. Evals this run: 121      f_min:       -4.3004115226
+ Iterations this run: 17      Func. Evals this run: 139      f_min:       -4.5000762079
+ Iterations this run: 18      Func. Evals this run: 155      f_min:       -4.5397043134
+ Iterations this run: 19      Func. Evals this run: 169      f_min:       -4.5397043134
+ Iterations this run: 20      Func. Evals this run: 187      f_min:       -4.5397043134
+ Iterations this run: 21      Func. Evals this run: 209      f_min:       -4.6296296296
+ Iterations this run: 22      Func. Evals this run: 225      f_min:       -4.6301376823
+ Iterations this run: 23      Func. Evals this run: 245      f_min:       -4.6301376823
+ Iterations this run: 24      Func. Evals this run: 271      f_min:       -4.6301376823
+ Iterations this run: 25      Func. Evals this run: 307      f_min:       -4.6589837818
+ Iterations this run: 26      Func. Evals this run: 341      f_min:       -4.6589837818
+ Iterations this run: 27      Func. Evals this run: 377      f_min:       -4.6589837818
+ Iterations this run: 28      Func. Evals this run: 431      f_min:       -4.6595984628
+ Iterations this run: 29      Func. Evals this run: 507      f_min:       -4.6689629391
+ -------------------------------------------------------
+ Total Iterations: 29	 	Total Func. Evals: 507
+
+
+Result = 
+
+             Solver: 'gclSolve'
+    SolverAlgorithm: 'DIRECT by Don Jones'
+                f_k: -4.668962939128396
+               Iter: 29
+             GLOBAL: [1x1 struct]
+                x_k: [4x1 double]
+             FuncEv: 507
+
+Result.x_k
+
+ans =
+
+   0.198902606310014
+   2.087334247828076
+   0.002286236854138
+   0.624142661179699
+
